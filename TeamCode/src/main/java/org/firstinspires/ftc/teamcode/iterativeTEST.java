@@ -29,7 +29,7 @@
 
 package org.firstinspires.ftc.teamcode;
 
-import com.qualcomm.robotcore.eventloop.opmode.Disabled;
+
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
@@ -162,6 +162,7 @@ public class iterativeTEST extends OpMode
 //        rightFrontPower   = Range.clip(drive - turn, -1.0, 1.0) ;
 //        rightBackPower   = Range.clip(drive - turn, -1.0, 1.0) ;
         final double JOYSTICK_SEN = .2;
+
         // if mathabs < joystick -> (?) 0 else (:) set to leftstick
 
         double lx = Math.abs(gamepad1.left_stick_x)< JOYSTICK_SEN ? 0 : gamepad1.left_stick_x;
