@@ -183,7 +183,7 @@ public class iterativeTEST extends OpMode
 
         if (gamepad2.y) {
             liftMotor.setDirection(DcMotor.Direction.REVERSE);
-            liftMotor.setPower(.8);
+            liftMotor.setPower(.9);
         } else if (gamepad2.a) {
             liftMotor.setDirection(DcMotor.Direction.FORWARD);
             liftMotor.setPower(.15);
